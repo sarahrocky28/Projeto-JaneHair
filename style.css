@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 100dvh;
+    position: sticky ;
+    top: 0;
+}
+
+
+/*tela inicial*/
+
+
+.telainicial_1{
+    background-color: #000000;
+    gap: 50px;
+}
+
+.telainicial_1 > img{
+    width: 400px;
+    margin: 15px;
+}
+
+.telainicial_1 > button{
+    width: 110px;
+    padding: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #000000;
+    font-size: 20px;
+}
+
+#vamosla:hover{
+    color: goldenrod;
+    border-color: goldenrod;
+    border-radius: 20px;
+}
+
+
+.amostra_2{
+    background-color: aliceblue;
+}
+.localizacao_3{
+    background-color: #FFF7D9;
+}
+.produtos_4{
+    background-color: aliceblue;
+}
+
+.zap{
+    position: fixed;
+    right: 70px;
+    bottom: 80px;
+}
