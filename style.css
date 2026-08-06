@@ -45,11 +45,43 @@
 }
 
 
+/*Tela2*/
+
 .amostra_2{
     background-color: aliceblue;
+    display: flex;
+    
 }
+
+#tituloAmostra{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.cabelos{
+    border-radius: 50px;
+    margin: 70px;
+    
+}
+
+.botaoAgendar{
+    width: 400px;
+    height: 70px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #000000;
+    font-size: 30px;
+    margin: 70px;
+}
+
+
+/*Tela 3*/
+
 .localizacao_3{
     background-color: #FFF7D9;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
 }
 .produtos_4{
     background-color: aliceblue;
