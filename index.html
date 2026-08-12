@@ -13,14 +13,14 @@
     <header></header>
     <section class="secao telainicial_1">
         <img src="./assets/logocerta.png" alt="">
-        <button onclick="ir()" id="vamosla">Vamos lá</button>
+        <a href="#vamosla">Vamos lá</a>
     </section>
 
 
-    <section class="secao amostra_2">
-        <h1 id="tituloAmostra">Conheça nossos trabalhos</h1>
+    <section class=" secao amostra_2" id="vamosla">
+        <h1>Conheça nossos trabalhos</h1>
         <div>
-            <img src="./assets/shaggy.png" alt="" width="400px" class="cabelos">
+            <img src=" ./assets/shaggy.png" alt="" width="400px" class="cabelos">
             <img src="./assets/pixie.png" alt="" width="400px" class="cabelos">
             <img src="./assets/loiro.png" alt="" width="400px" class="cabelos">
         </div>
@@ -35,41 +35,74 @@
 
     <section class="secao localizacao_3">
         <div class="metade_1">
-            <h1>Conheça o nosso espaço</h1>
-            <img src="" alt="" class="espaço">
-            <img src="" alt="" class="espaço">
-            <p></p>
+            <div class="tituloLocal">
+                <h1 id="tituloLocal">Conheça o nosso <br> espaço</h1>
+            </div>
+            <div class="fotos">
+                <div class="espaco1">
+                    <img src="./assets/salao1.png" alt="" class="espaço" id="foto1_local">
+                </div>
+                <img src="./assets/salao2.png" alt="" class="espaço" id="foto2_local">
+            </div>
+            <div class="endereco">
+                <img src="./assets/Region.png" alt="" width="50px">
+                <p>Endereço: Av, Jane Hair, N°000 - Jane- JN</p>
+            </div>
         </div>
-        <div>
-            <h1>Serviços adicionais</h1>
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
+
+
+        <div class="metade_2">
+            <h1 class="titulo_servicos">Serviços adicionais</h1>
+            <div class="mais_servico">
+                <img src="./assets/unha.png" alt="" width="200px" class="servicosAdd">
+                <p>Manicure e <br>Pedicure</p>
+                <img src="./assets/Eyelashes 3D.png" alt="" width="65px">
             </div>
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
+
+            <div class="mais_servico">
+                <img src="./assets/Manicure.png" alt="" width="65px">
+                <p>Sobrancelha e <br>Cílios</p>
+                <img src="./assets/sobrancelha.png" alt="" width="200px" class="servicosAdd">
             </div>
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
+            <div class="mais_servico">
+                <img src="./assets/massgem.png" alt="" width="200px" class="servicosAdd">
+                <p>Massagem facial</p>
+                <img src="./assets/Spa Mask.png" alt="" width="65px">
             </div>
 
         </div>
     </section>
+
+
     <section class="secao produtos_4">
-        <h1>Essa é a seção 1 (Tela com a logo)</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus expedita minima iste blanditiis accusamus
-            aliquid praesentium porro iure? Alias atque, cupiditate saepe possimus quos veniam impedit culpa vitae
-            maiores eaque.</p>
+
+        <div class="carrossel-container">
+            <h1>Produtos e ofertas aqui!</h1>
+            <img id="imagemCarrossel" class="carrossel-imagem" src="./assets/shampoo.png" alt="" width="500px">
+        </div>
+
+
+        <div class="promocoes_container">
+            <h1>Pacotes promocionais</h1>
+            <button class="botão_promo">
+                <h1>Super Glamour</h1>
+                <p>Lavagem + Corte + Tratamento + Finalização</p>
+            </button>
+            <button class="botão_promo">
+                <h1>Aconhego Plus</h1>
+                <p>Massagem facial + Manicure + Pedicure</p>
+            </button>
+            <button class="botão_promo">
+                <h1>Plano para Noivas</h1>
+                <p>Atendimento personalizados + serviços a combinar</p>
+            </button>
+            <button class="botão_promo""><h1>AGENDAR</h1></button>
+        </div>
     </section>
 
 
-    <a href="https://www.whatsapp.com/"><img src="./assets/whats.png" alt="" class="zap" height="70px"></a>
-    <footer>By JaneTech - 2026</footer>
+    <a href=" https://www.whatsapp.com/"><img src="./assets/whats.png" alt="" class="zap" height="70px"></a>
+                <footer>By JaneTech - 2026</footer>
 </body>
 
 </html>
